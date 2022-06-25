@@ -1,0 +1,82 @@
+
+IMRD@IMRDCOMP65 MINGW64 ~ (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/IMRD/.git/
+
+IMRD@IMRDCOMP65 MINGW64 ~ (master)
+$ git -global user.name
+unknown option: -global
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+IMRD@IMRDCOMP65 MINGW64 ~ (master)
+$ git config --global user.name
+umar khan
+
+IMRD@IMRDCOMP65 MINGW64 ~ (master)
+$ git config --global user.email
+umargd123@gmail
+
+IMRD@IMRDCOMP65 MINGW64 ~ (master)
+$ pwd
+/c/Users/IMRD
+
+IMRD@IMRDCOMP65 MINGW64 ~ (master)
+$ mkdir umarA2
+
+IMRD@IMRDCOMP65 MINGW64 ~ (master)
+$ cd umarA2
+
+IMRD@IMRDCOMP65 MINGW64 ~/umarA2 (master)
+$ touch p1.txt
+
+IMRD@IMRDCOMP65 MINGW64 ~/umarA2 (master)
+$ notepad p1.txt
+
+IMRD@IMRDCOMP65 MINGW64 ~/umarA2 (master)
+$ git add p1.txt
+
+IMRD@IMRDCOMP65 MINGW64 ~/umarA2 (master)
+$ git log -v
+commit b61592ea40089c7ac16a0f441fc809e3576a1d6b (HEAD -> master)
+Author: umar khan <umargd123@gmail>
+Date:   Thu Jun 23 09:18:44 2022 +0530
+
+    sachin commited success
+
+IMRD@IMRDCOMP65 MINGW64 ~/umarA2 (master)
+$ git commit -m'success'
+[master 58777cf] success
+ 1 file changed, 2 insertions(+)
+ create mode 100644 umarA2/p1.txt
+
+IMRD@IMRDCOMP65 MINGW64 ~/umarA2 (master)
+$ git remote add origin https://github.com/Umarkhan7312/umarA2.git
+
+IMRD@IMRDCOMP65 MINGW64 ~/umarA2 (master)
+$ git push -u origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (8/8), 560 bytes | 280.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Umarkhan7312/umarA2.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+IMRD@IMRDCOMP65 MINGW64 ~/umarA2 (master)
+$ git pull https://github.com/Umarkhan7312/umarA2.git
+From https://github.com/Umarkhan7312/umarA2
+ * branch            HEAD       -> FETCH_HEAD
+Already up to date.
+
+IMRD@IMRDCOMP65 MINGW64 ~/umarA2 (master)
+$ https://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.githttps://github.com/Umarkhan7312/umarA2.git^C
+
+IMRD@IMRDCOMP65 MINGW64 ~/umarA2 (master)
+$
